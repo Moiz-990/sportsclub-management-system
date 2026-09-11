@@ -10,3 +10,7 @@ def show_membership(member_id, name, sport):
     print("Name:", name)
     print("Sport:", sport)
  
+def calculate_fee(months, monthly_fee=500):
+    fee = months * monthly_fee
+    print("Membership Fee = Rs.", fee)
+    return fee
