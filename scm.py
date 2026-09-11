@@ -14,3 +14,8 @@ def calculate_fee(months, monthly_fee=500):
     fee = months * monthly_fee
     print("Membership Fee = Rs.", fee)
     return fee
+sports_schedule = {
+    "Football": "Monday and Wednesday - 5 PM",
+    "Cricket": "Tuesday and Thursday - 6 PM",
+    "Badminton": "Friday and Saturday - 4 PM"
+}
