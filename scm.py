@@ -9,3 +9,4 @@ def show_membership(member_id, name, sport):
     print("Member ID:", member_id)
     print("Name:", name)
     print("Sport:", sport)
+ 
